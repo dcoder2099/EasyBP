@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BPMasterViewController : UITableViewController
+@class BPEntryDataController;
 
+@interface BPMasterViewController : UITableViewController
+@property (strong, nonatomic) BPEntryDataController *dataController;
 @end

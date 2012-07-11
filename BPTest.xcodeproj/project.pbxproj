@@ -16,6 +16,9 @@
 		A32AAB8415AA3C8B0079E4E3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A32AAB8215AA3C8B0079E4E3 /* MainStoryboard.storyboard */; };
 		A32AAB8715AA3C8B0079E4E3 /* BPMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A32AAB8615AA3C8B0079E4E3 /* BPMasterViewController.m */; };
 		A32AAB8A15AA3C8B0079E4E3 /* BPDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A32AAB8915AA3C8B0079E4E3 /* BPDetailViewController.m */; };
+		A32AAB9215AA3CE50079E4E3 /* BPEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = A32AAB9115AA3CE50079E4E3 /* BPEntry.m */; };
+		A32AAB9515AA40D80079E4E3 /* BPEntryDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = A32AAB9415AA40D80079E4E3 /* BPEntryDataController.m */; };
+		A32AAB9815AA4ED10079E4E3 /* AddBPEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A32AAB9715AA4ED10079E4E3 /* AddBPEntryViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,17 +26,23 @@
 		A32AAB7015AA3C8B0079E4E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A32AAB7215AA3C8B0079E4E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A32AAB7415AA3C8B0079E4E3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A32AAB7815AA3C8B0079E4E3 /* BPTest-Info.plist */ = {isa = PBXFileReference; path = "BPTest-Info.plist"; sourceTree = "<group>"; };
+		A32AAB7815AA3C8B0079E4E3 /* BPTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BPTest-Info.plist"; sourceTree = "<group>"; };
 		A32AAB7A15AA3C8B0079E4E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A32AAB7C15AA3C8B0079E4E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A32AAB7E15AA3C8B0079E4E3 /* BPTest-Prefix.pch */ = {isa = PBXFileReference; path = "BPTest-Prefix.pch"; sourceTree = "<group>"; };
-		A32AAB7F15AA3C8B0079E4E3 /* BPAppDelegate.h */ = {isa = PBXFileReference; path = BPAppDelegate.h; sourceTree = "<group>"; };
+		A32AAB7E15AA3C8B0079E4E3 /* BPTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BPTest-Prefix.pch"; sourceTree = "<group>"; };
+		A32AAB7F15AA3C8B0079E4E3 /* BPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPAppDelegate.h; sourceTree = "<group>"; };
 		A32AAB8015AA3C8B0079E4E3 /* BPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPAppDelegate.m; sourceTree = "<group>"; };
 		A32AAB8315AA3C8B0079E4E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		A32AAB8515AA3C8B0079E4E3 /* BPMasterViewController.h */ = {isa = PBXFileReference; path = BPMasterViewController.h; sourceTree = "<group>"; };
+		A32AAB8515AA3C8B0079E4E3 /* BPMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPMasterViewController.h; sourceTree = "<group>"; };
 		A32AAB8615AA3C8B0079E4E3 /* BPMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPMasterViewController.m; sourceTree = "<group>"; };
-		A32AAB8815AA3C8B0079E4E3 /* BPDetailViewController.h */ = {isa = PBXFileReference; path = BPDetailViewController.h; sourceTree = "<group>"; };
+		A32AAB8815AA3C8B0079E4E3 /* BPDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPDetailViewController.h; sourceTree = "<group>"; };
 		A32AAB8915AA3C8B0079E4E3 /* BPDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPDetailViewController.m; sourceTree = "<group>"; };
+		A32AAB9015AA3CE50079E4E3 /* BPEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPEntry.h; sourceTree = "<group>"; };
+		A32AAB9115AA3CE50079E4E3 /* BPEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPEntry.m; sourceTree = "<group>"; };
+		A32AAB9315AA40D80079E4E3 /* BPEntryDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPEntryDataController.h; sourceTree = "<group>"; };
+		A32AAB9415AA40D80079E4E3 /* BPEntryDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPEntryDataController.m; sourceTree = "<group>"; };
+		A32AAB9615AA4ED10079E4E3 /* AddBPEntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddBPEntryViewController.h; sourceTree = "<group>"; };
+		A32AAB9715AA4ED10079E4E3 /* AddBPEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddBPEntryViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,11 +89,17 @@
 		A32AAB7615AA3C8B0079E4E3 /* BPTest */ = {
 			isa = PBXGroup;
 			children = (
+				A32AAB9015AA3CE50079E4E3 /* BPEntry.h */,
+				A32AAB9115AA3CE50079E4E3 /* BPEntry.m */,
+				A32AAB9315AA40D80079E4E3 /* BPEntryDataController.h */,
+				A32AAB9415AA40D80079E4E3 /* BPEntryDataController.m */,
 				A32AAB7F15AA3C8B0079E4E3 /* BPAppDelegate.h */,
 				A32AAB8015AA3C8B0079E4E3 /* BPAppDelegate.m */,
 				A32AAB8215AA3C8B0079E4E3 /* MainStoryboard.storyboard */,
 				A32AAB8515AA3C8B0079E4E3 /* BPMasterViewController.h */,
 				A32AAB8615AA3C8B0079E4E3 /* BPMasterViewController.m */,
+				A32AAB9615AA4ED10079E4E3 /* AddBPEntryViewController.h */,
+				A32AAB9715AA4ED10079E4E3 /* AddBPEntryViewController.m */,
 				A32AAB8815AA3C8B0079E4E3 /* BPDetailViewController.h */,
 				A32AAB8915AA3C8B0079E4E3 /* BPDetailViewController.m */,
 				A32AAB7715AA3C8B0079E4E3 /* Supporting Files */,
@@ -171,6 +186,9 @@
 				A32AAB8115AA3C8B0079E4E3 /* BPAppDelegate.m in Sources */,
 				A32AAB8715AA3C8B0079E4E3 /* BPMasterViewController.m in Sources */,
 				A32AAB8A15AA3C8B0079E4E3 /* BPDetailViewController.m in Sources */,
+				A32AAB9215AA3CE50079E4E3 /* BPEntry.m in Sources */,
+				A32AAB9515AA40D80079E4E3 /* BPEntryDataController.m in Sources */,
+				A32AAB9815AA4ED10079E4E3 /* AddBPEntryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,8 @@
 //
 
 #import "BPAppDelegate.h"
+#import "BPEntryDataController.h"
+#import "BPMasterViewController.h"
 
 @implementation BPAppDelegate
 
@@ -14,7 +16,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
+    BPMasterViewController *firstViewController = (BPMasterViewController *)[[navigationController viewControllers] objectAtIndex:0];
+    BPEntryDataController *aDataController = [[BPEntryDataController alloc] init];
+    firstViewController.dataController = aDataController;
     return YES;
 }
 							

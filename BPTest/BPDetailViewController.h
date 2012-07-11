@@ -8,10 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BPDetailViewController : UIViewController
+@class BPEntry;
 
-@property (strong, nonatomic) id detailItem;
-
-@property (strong, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
-
+@interface BPDetailViewController : UITableViewController
+@property (strong, nonatomic) BPEntry *entry;
+@property (weak, nonatomic) IBOutlet UILabel *systolicLabel;
+@property (weak, nonatomic) IBOutlet UILabel *diastolicLabel;
+@property (weak, nonatomic) IBOutlet UILabel *pulseLabel;
+@property (weak, nonatomic) IBOutlet UILabel *dateLabel;
 @end
