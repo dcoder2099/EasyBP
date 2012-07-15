@@ -16,7 +16,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *diastolicInput;
 @property (weak, nonatomic) IBOutlet UITextField *pulseInput;
 @property (weak, nonatomic) IBOutlet UIButton *dateButton;
-@property (strong, nonatomic) IBOutlet UIDatePicker *pickerView; 
+@property (strong, nonatomic) IBOutlet UIDatePicker *pickerView; // strong because we're loading it from an external nib.
 @property (strong, nonatomic) NSDateFormatter *formatter;
 
 - (IBAction)cancel:(id)sender;
