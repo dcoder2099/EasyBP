@@ -87,10 +87,9 @@
     [self dismissViewControllerAnimated:YES completion:NULL];
 }
 
-- (void)addBPEntryViewControllerDidFinish:(AddBPEntryViewController *)controller systolic:(NSInteger)systolic diastolic:(NSInteger)diastolic pulse:(NSInteger)pulse {
+- (void)addBPEntryViewControllerDidFinish:(AddBPEntryViewController *)controller systolic:(NSInteger)systolic diastolic:(NSInteger)diastolic pulse:(NSInteger)pulse date:(NSDate *)date {
     if ((systolic > 0) && (diastolic > 0) && (pulse > 0)) {
-        NSDate *today = [NSDate date];
-        [self.dataController addBPEntryWithSystolic:systolic diastolic:diastolic pulse:pulse date:today];
+        [self.dataController addBPEntryWithSystolic:systolic diastolic:diastolic pulse:pulse date:date];
         [[self tableView] reloadData];
     }
     [self dismissModalViewControllerAnimated:YES];
