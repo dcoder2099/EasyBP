@@ -19,6 +19,7 @@
 		A32AAB9215AA3CE50079E4E3 /* BPEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = A32AAB9115AA3CE50079E4E3 /* BPEntry.m */; };
 		A32AAB9515AA40D80079E4E3 /* BPEntryDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = A32AAB9415AA40D80079E4E3 /* BPEntryDataController.m */; };
 		A32AAB9815AA4ED10079E4E3 /* AddBPEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A32AAB9715AA4ED10079E4E3 /* AddBPEntryViewController.m */; };
+		A3FB3C9115B35B150023A450 /* DatePickerUI.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3FB3C9015B35B150023A450 /* DatePickerUI.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		A32AAB9415AA40D80079E4E3 /* BPEntryDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPEntryDataController.m; sourceTree = "<group>"; };
 		A32AAB9615AA4ED10079E4E3 /* AddBPEntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddBPEntryViewController.h; sourceTree = "<group>"; };
 		A32AAB9715AA4ED10079E4E3 /* AddBPEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddBPEntryViewController.m; sourceTree = "<group>"; };
+		A3FB3C9015B35B150023A450 /* DatePickerUI.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatePickerUI.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 		A32AAB7715AA3C8B0079E4E3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A3FB3C9015B35B150023A450 /* DatePickerUI.xib */,
 				A32AAB7815AA3C8B0079E4E3 /* BPTest-Info.plist */,
 				A32AAB7915AA3C8B0079E4E3 /* InfoPlist.strings */,
 				A32AAB7C15AA3C8B0079E4E3 /* main.m */,
@@ -172,6 +175,7 @@
 			files = (
 				A32AAB7B15AA3C8B0079E4E3 /* InfoPlist.strings in Resources */,
 				A32AAB8415AA3C8B0079E4E3 /* MainStoryboard.storyboard in Resources */,
+				A3FB3C9115B35B150023A450 /* DatePickerUI.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +304,7 @@
 				A32AAB8F15AA3C8B0079E4E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

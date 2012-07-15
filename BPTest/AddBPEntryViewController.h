@@ -16,12 +16,13 @@
 @property (weak, nonatomic) IBOutlet UITextField *diastolicInput;
 @property (weak, nonatomic) IBOutlet UITextField *pulseInput;
 @property (weak, nonatomic) IBOutlet UIButton *dateButton;
-@property (weak, nonatomic) IBOutlet UIDatePicker *pickerView; 
+@property (strong, nonatomic) IBOutlet UIDatePicker *pickerView; 
 @property (strong, nonatomic) NSDateFormatter *formatter;
 
 - (IBAction)cancel:(id)sender;
 - (IBAction)done:(id)sender;
 - (IBAction)showDatePicker:(id)sender;
+- (void)hideDatePicker;
 - (IBAction)datePickerChanged:(id)sender;
 @end
 
